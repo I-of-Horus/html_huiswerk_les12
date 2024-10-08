@@ -14,21 +14,22 @@ header, footer {
 
 td {
     font-family: "Notable";
+    font-size: xx-large;
+
     float: left;
+    
     width: 400px;
     height: 250px;
     padding: 20px;
     border: 5px solid white;
-    font-size: xx-large;
-    text-align: center;
-    margin: auto;       /* Waarom zorgt dit niet voor verticaal centreren??                 */
+     
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 
 span {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding: 10px 30px 10px 30px;
 }
 
 /* Kleuren. Ik heb geprobeerd er een beetje een verlopend geheel van te maken, met steeds   */
